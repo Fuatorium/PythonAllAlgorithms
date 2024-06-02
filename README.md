@@ -295,6 +295,62 @@ The repository is organized into the following folders:
       - Implementation of AES encryption and decryption using the PyCryptodome library.
     - **Secure Hash Algorithms (SHA) (sha.py)**
       - Implementation of SHA-256 hashing using the hashlib library.
+     
+### Classical Encryption Algorithms
+
+1. **Caesar Cipher (caesar_cipher.py)**
+   - A substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+
+2. **Atbash Cipher (atbash_cipher.py)**
+   - A substitution cipher where the letters of the alphabet are reversed. 'A' becomes 'Z', 'B' becomes 'Y', etc.
+
+3. **Vigenère Cipher (vigenere_cipher.py)**
+   - A polyalphabetic substitution cipher that uses a keyword to determine the shift for each letter.
+
+4. **Playfair Cipher (playfair_cipher.py)**
+   - A digraph substitution cipher that encrypts pairs of letters using a 5x5 matrix.
+
+5. **Affine Cipher (affine_cipher.py)**
+   - A substitution cipher where each letter in an alphabet is mapped to its numeric equivalent, encrypted using a simple mathematical function, and converted back to a letter.
+
+6. **Rail Fence Cipher (rail_fence_cipher.py)**
+   - A transposition cipher where the plaintext is written in a zigzag pattern on a number of 'rails' and then read line by line.
+
+7. **Columnar Transposition Cipher (columnar_transposition_cipher.py)**
+   - A transposition cipher that involves writing the plaintext out in rows and then reading the ciphertext off in columns one by one.
+
+8. **Baconian Cipher (baconian_cipher.py)**
+   - A substitution cipher in which each letter is replaced by a sequence of five characters consisting of 'A' or 'B'.
+
+9. **Scytale Cipher (scytale_cipher.py)**
+   - An ancient transposition cipher where a strip of parchment is wound around a cylinder and the message is written along the length of the cylinder.
+
+10. **Keyword Cipher (keyword_cipher.py)**
+    - A monoalphabetic substitution cipher where a keyword determines the substitution of letters.
+
+11. **Beaufort Cipher (beaufort_cipher.py)**
+    - A polyalphabetic substitution cipher similar to the Vigenère cipher but with a slightly different method for encryption.
+
+12. **Gronsfeld Cipher (gronsfeld_cipher.py)**
+    - A polyalphabetic substitution cipher very similar to the Vigenère cipher but uses digits (0-9) instead of letters in the key.
+
+13. **Four-Square Cipher (four_square_cipher.py)**
+    - Uses four 5x5 matrices arranged in a square to encrypt digraphs (pairs of letters).
+
+14. **ADFGVX Cipher (adfgvx_cipher.py)**
+    - Uses a combination of a Polybius square and a columnar transposition. It was used by the German Army during World War I.
+
+15. **Bifid Cipher (bifid_cipher.py)**
+    - Combines the Polybius square with transposition to achieve diffusion. It is a combination of substitution and transposition.
+
+16. **ROT13 Cipher (rot13_cipher.py)**
+    - A special case of the Caesar cipher where the shift is 13. It is commonly used in forums and online to obscure text.
+
+17. **Morse Code (morse_code.py)**
+    - A method used in telecommunication to encode text characters as sequences of dots and dashes.
+
+18. **Pigpen Cipher (pigpen_cipher.py)**
+    - A simple substitution cipher that exchanges letters for symbols based on a grid pattern.
 
 ## How to Run
 
