@@ -5,7 +5,7 @@ This repository contains Python implementations of various algorithms, organized
 ## Folder Structure
 
 The repository is organized into the following folders:
-
+- `Classic Encryption Algorithms`
 - `Sorting Algorithms`
 - `Search Algorithms`
 - `Graph Algorithms`
